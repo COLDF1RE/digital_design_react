@@ -2,6 +2,7 @@ import React from 'react';
 import { AppRoute } from '../../const';
 
 const Header = ({mode}) => {
+
     return (
       <section className="main__header">
         <section className="main__header-wrap">

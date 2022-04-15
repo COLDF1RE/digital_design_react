@@ -3,12 +3,13 @@ import Card from '../Card/Card';
 import NoEvents from "../No-events/No-events";
 import LoadMore from "../Load-more/Load-more";
 import Sorting from "../Sorting/Sorting";
+import { AppRoute } from '../../const';
 
-const Board = (props) => {
+const Board = ({mode}) => {
 
   return (
     <section className="board">
-      <Sorting enableSorting={props.enableSorting}/>
+      {mode === AppRoute.MAIN && <Sorting />}
       <div className="board__events">
         <Card/>
         {/*<NoEvents/>*/}

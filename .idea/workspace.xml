@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="396c22a9-c4e5-4012-9925-6dc7307406c3" name="Changes" comment="" />
+    <list default="true" id="396c22a9-c4e5-4012-9925-6dc7307406c3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="27mbiXBzsvl6h4h3fTdjzJHiM8I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,7 +31,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -34,7 +46,8 @@
       <updated>1649928336183</updated>
       <workItem from="1649928341414" duration="8885000" />
       <workItem from="1649940641432" duration="5752000" />
-      <workItem from="1649947232479" duration="114000" />
+      <workItem from="1649947232479" duration="1452000" />
+      <workItem from="1650012776987" duration="1230000" />
     </task>
     <servers />
   </component>

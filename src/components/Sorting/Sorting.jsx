@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Sorting = (props) => {
+const Sorting = () => {
 
-  if (props.enableSorting !== false) {
+
 
     return (
       <div className="board__filter-list">
@@ -31,7 +31,7 @@ const Sorting = (props) => {
         <label htmlFor="board__filter-old" className="board__filter-label">Сначала старые</label>
       </div>
     );
-  }
+
 };
 
 export default Sorting;
