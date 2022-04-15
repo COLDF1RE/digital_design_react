@@ -6,6 +6,7 @@ import LoadMore from "../../components/Load-more/Load-more";
 
 
 const Archive = () => {
+
   return (
     <>
       <Header mode={AppRoute.ARCHIVE}/>

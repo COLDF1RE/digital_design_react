@@ -4,11 +4,7 @@
     <list default="true" id="396c22a9-c4e5-4012-9925-6dc7307406c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
       <workItem from="1649928341414" duration="8885000" />
       <workItem from="1649940641432" duration="5752000" />
       <workItem from="1649947232479" duration="1452000" />
-      <workItem from="1650012776987" duration="1230000" />
+      <workItem from="1650012776987" duration="1918000" />
     </task>
     <servers />
   </component>
