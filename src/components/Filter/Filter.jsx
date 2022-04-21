@@ -4,7 +4,7 @@ import {AppRoute} from "../../const";
 
 const Filter = () => {
 
-  const location = useLocation()
+  const { pathname } = useLocation()
 
   return (
     <section className="main__filter filter">
@@ -57,9 +57,9 @@ const Filter = () => {
         Избранное <span className="filter__favorite-count count">1</span>
       </label>
 
-      <Link to={AppRoute.ADD} name="control" className="btn-add" style={{display: location.pathname === AppRoute.ADD && "none" }}>
-        Создать
-      </Link>
+      {pathname === AppRoute.MAIN &&
+        <Link to={AppRoute.ADD} name="control" className="btn-add">Создать</Link>
+      }
 
     </section>
   );

@@ -6,16 +6,18 @@ import Sorting from "../Sorting/Sorting";
 import { AppRoute } from '../../const';
 import {useLocation} from "react-router-dom";
 
-const Board = () => {
+const Board = ({events}) => {
 
-  const location = useLocation()
+  const { pathname } = useLocation()
 
   return (
     <section className="board">
-      {location.pathname === AppRoute.MAIN && <Sorting />}
+      {pathname === AppRoute.MAIN && <Sorting />}
       <div className="board__events">
-        <Card/>
-        {/*<NoEvents/>*/}
+        {events.length !==0
+          ? events.map(event => <Card {...event} key={event._id}/>)
+          : <NoEvents/>
+        }
       </div>
       <LoadMore/>
     </section>

@@ -3,13 +3,13 @@ import Header from '../../components/Header/Header';
 import Filter from '../../components/Filter/Filter';
 import Board from '../../components/Board/Board';
 
-const Main = () => {
+const Main = ({events}) => {
   return (
     <>
       <Header/>
       <section className="main__wrapper">
         <Filter />
-        <Board/>
+        <Board events={events}/>
       </section>
     </>
   )
