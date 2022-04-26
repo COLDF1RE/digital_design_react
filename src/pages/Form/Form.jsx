@@ -13,6 +13,6 @@ const Form = ({events}) => {
       </section>
     </>
   );
-};
+}
 
 export default Form;
