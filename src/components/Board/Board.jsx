@@ -5,39 +5,40 @@ import LoadMore from "../Load-more/Load-more";
 import Sorting from "../Sorting/Sorting";
 import { AppRoute } from '../../const';
 import {useLocation} from "react-router-dom";
+import {events} from "../../store";
 
 
-const Board = ({events}) => {
+const Board = ({PropsEvents}) => {
 
   const { pathname } = useLocation()
 
   const [step, setStep] = useState(20)
 
   const handleLoadMore = () => {
-    events.length >= step ? setStep(step + 10) : setStep(events.length)
+    PropsEvents.length >= step ? setStep(step + 10) : setStep(PropsEvents.length)
   }
 
-  const handleDeleteArchiveEvents = (evt) => {
+  const handleClearArchive = (evt) => {
     evt.preventDefault()
-    events.deleteArchiveEvents()
+    events.clearArchive()
+    //вариант удаления перебором
+    // events.archiveData.map(item => events.deleteEvent(item._id));
   }
 
   return (
     <section className="board">
-      {pathname === AppRoute.MAIN && events.length !==0 && <Sorting />}
+      {pathname === AppRoute.MAIN && PropsEvents.length !==0 && <Sorting />}
       <div className="board__events">
-        {events.length !==0
-          ? events.slice(0, step).map(event => <Card event={event} key={event._id}/>)
+        {PropsEvents.length !==0
+          ? PropsEvents.slice(0, step).map(event => <Card event={event} key={event._id}/>)
           : <NoEvents/>
         }
       </div>
 
-      {/*//Себе: дописать функционал удалить все карты со страницы архива*/}
-      {pathname === AppRoute.ARCHIVE && <button className="load-more" onClick={handleDeleteArchiveEvents}>Удалить все</button>}
 
-      {/*Тут на месте можно простым способом onClick повестить?*/}
-      {/*<LoadMore onClick={handleLoadMore}/>*/}
-      <button className='load-more' type='button' onClick={handleLoadMore}>Загрузить еще</button>
+      {pathname === AppRoute.ARCHIVE && <button className="load-more" onClick={handleClearArchive}>Удалить все</button>}
+
+      <LoadMore handleLoadMore={handleLoadMore}/>
 
     </section>
   )

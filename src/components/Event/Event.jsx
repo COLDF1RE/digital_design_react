@@ -8,8 +8,8 @@ import "moment/locale/ru";
 const Event = observer(() => {
 
   const {id} = useParams()
-  const getTitleText = () => id ? 'Редактирование' : 'Добавление'
-  const getButtonText = () => id ? 'Сохранить' : 'Добавить'
+  const setTitleText = () => id ? 'Редактирование' : 'Добавление'
+  const setButtonText = () => id ? 'Сохранить' : 'Добавить'
   const newDate = moment(new Date()).format('YYYY-MM-DDThh:mm')
 
   //Нахожу нужный мне объект по айди
@@ -64,7 +64,7 @@ const Event = observer(() => {
   return (
     <section className="board">
       <form className="board__form" onSubmit={handleSubmit}>
-        <h2 className="board__title">{getTitleText()} события</h2>
+        <h2 className="board__title">{setTitleText()} события</h2>
         <fieldset className="board__field board__field--theme">
           <label htmlFor="theme" className="board__label board__label--theme">Тема:</label>
           <textarea
@@ -98,7 +98,7 @@ const Event = observer(() => {
           />
         </fieldset>
         <div className="btns">
-          <button type="submit" className="btn-submit">{getButtonText()}</button>
+          <button type="submit" className="btn-submit">{setButtonText()}</button>
           <button type="reset" className="btn-reset" onClick={clearForm}>Очистить</button>
         </div>
       </form>

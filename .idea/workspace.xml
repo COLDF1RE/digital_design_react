@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="396c22a9-c4e5-4012-9925-6dc7307406c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/Card.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Event/Event.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Event/Event.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Filter/Filter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Sorting/Sorting.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Load-more/Load-more.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Load-more/Load-more.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Archive/Archive.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Form/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Form/Form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,9 @@
       <workItem from="1650874204481" duration="9651000" />
       <workItem from="1650898877800" duration="6105000" />
       <workItem from="1650925958819" duration="7256000" />
-      <workItem from="1650966493086" duration="15204000" />
+      <workItem from="1650966493086" duration="23555000" />
+      <workItem from="1651059423688" duration="796000" />
+      <workItem from="1651065721811" duration="1529000" />
     </task>
     <servers />
   </component>
@@ -134,18 +128,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Board/Board.jsx</url>
-          <line>34</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

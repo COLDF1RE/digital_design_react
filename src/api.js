@@ -33,6 +33,6 @@ export const deleteEvent = (id) => {
   return request(url + '/' + id, 'DELETE');
 }
 
-export const deleteArchiveEvents = () => {
-  return request(`${url}/archive/delete`)
+export const clearArchive = () => {
+  return request(`${url}/archive/delete`, 'DELETE')
 }
