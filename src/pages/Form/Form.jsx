@@ -1,19 +1,18 @@
 import React from 'react';
 import Event from "../../components/Event/Event";
 import Header from "../../components/Header/Header";
-import {AppRoute} from "../../const";
 import Filter from "../../components/Filter/Filter";
 
-const Form = () => {
+const Form = ({events}) => {
   return (
     <>
-      <Header mode={AppRoute.MAIN}/>
+      <Header/>
       <section className="main__wrapper">
         <Filter/>
-        <Event/>
+        <Event events={events}/>
       </section>
     </>
   );
-};
+}
 
 export default Form;
