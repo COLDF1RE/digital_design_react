@@ -1,5 +1,5 @@
 import { computed, makeAutoObservable, onBecomeObserved } from "mobx";
-import { getEvents, addEvent, editEvent, deleteEvent, deleteArchiveEvents } from "../api";
+import { getEvents, addEvent, editEvent, deleteEvent, clearArchive } from "../api";
 import moment from 'moment';
 
 // class EventStore {
@@ -125,8 +125,8 @@ class EventsStore {
     yield this.fetch();
   }
 
-  *deleteArchiveEvents(data) {
-    yield deleteArchiveEvents(data)
+  *clearArchive() {
+    yield clearArchive()
     yield this.fetch();
   }
 }

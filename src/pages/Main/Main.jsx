@@ -15,7 +15,7 @@ const Main = observer(() => {
       <Header/>
       <section className="main__wrapper">
         <Filter />
-        <Board events={filteredData}/>
+        <Board PropsEvents={filteredData}/>
       </section>
     </>
   )

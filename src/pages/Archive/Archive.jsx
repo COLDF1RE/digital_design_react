@@ -14,7 +14,7 @@ const Archive = observer(() => {
       <Header/>
       <section className="main__wrapper">
         {/*<Board events={archiveEvents}/>*/}
-        <Board events={archiveData}/>
+        <Board PropsEvents={archiveData}/>
       </section>
     </>
   )
