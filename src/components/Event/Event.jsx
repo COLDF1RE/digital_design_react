@@ -10,7 +10,7 @@ const Event = observer(() => {
   const {id} = useParams()
   const setTitleText = () => id ? 'Редактирование' : 'Добавление'
   const setButtonText = () => id ? 'Сохранить' : 'Добавить'
-  const newDate = moment(new Date()).format('YYYY-MM-DDThh:mm')
+  const newDate = moment(new Date()).format('YYYY-MM-DD HH:mm')
 
   //Нахожу нужный мне объект по айди
   const {allData} = events
